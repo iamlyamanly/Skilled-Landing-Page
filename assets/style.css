@@ -1,0 +1,191 @@
+.page_navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  .page_navbar_btn_btn {
+    background: #13183f;
+    padding: 14px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.page_header {
+  .page_header_head {
+    display: flex;
+  }
+
+  .page_header_text {
+    margin-top: 186px;
+    width:457px;
+    .page_header_text_h1 {
+      color: var(--13183F, #13183f);
+      font-size: 56px;
+      font-weight: 800;
+      line-height: normal;
+    }
+    .page_header_text_desc {
+      color: var(--83869A, #83869a);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      margin-top: 29px;
+    }
+    .page_header_text_btn {
+      border-radius: 31.5px;
+      background: var(
+        --Gradient-1,
+        linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+      );
+      margin-top: 40px;
+    }
+  }
+  .page_header_box2{
+    width: 155px;
+    height: 120px;
+    z-index: 9;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    position: absolute;
+    padding: 20px  0px 0px 32px ;
+    right: 101px;
+    top:270px;
+
+  }
+  .page_header_box1{
+    width: 199px;
+    height: 120px;
+    border-radius: 15px;
+    background: var(--FFFFFF, #FFF);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    z-index: 9;
+    padding: 20px  0px 0px 32px ;
+    position: absolute;
+    top: 509px;
+    right: 457px;
+ 
+  }
+  .page_header_box_p{
+    color: var(--83869A, #83869A);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px; 
+   }
+    .page_header_box_span{
+        color: var(--13183F, #13183F);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: normal;
+    
+   }
+  .page_header_gradient {
+    .page_header_gradient_element1 {
+      position: absolute;
+      width: 317px;
+      height: 1008px;
+      top: -170px;
+      right: 0;
+      transform: rotate(45deg);
+      border-radius: 158.5px;
+      background: var(
+        --Gradient-2,
+        linear-gradient(180deg, #4851ff 0%, #f02aa6 100%)
+      );
+    }
+    .page_header_gradient_element2 {
+      position: absolute;
+      width: 317px;
+      height: 560px;
+      flex-shrink: 0;
+      top:177px;
+      border-radius: 158.5px;
+      background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+      right: 245px;
+      overflow: hidden;
+      img{
+        width: auto;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        
+      }
+    }
+  }
+}
+.card_icon {
+  margin-left: 32px;
+  margin-top: -32px;
+}
+.card_cont {
+  display: flex;
+  padding-bottom: 148px;
+  flex-wrap: wrap;
+  gap: 62px;
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+  justify-content: space-between;
+  margin-top: 266px;
+  .card {
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+    .card_text_desc {
+      color: var(--FFFFFF, #fff);
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 40px;
+      padding: 64px 32px 138px 32px;
+    }
+  }
+  .card_desc {
+    padding: 32px 32px 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .card_head {
+      .card_head_desc {
+        color: var(--13183F, #13183f);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: normal;
+      }
+    }
+    .card_text {
+      .card_text_p {
+        color: var(--83869A, #83869a);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    }
+    .card_link {
+      .card_link_a {
+        color: var(--F74780, #f74780);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background: #13183f;
+  .footer_cont {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+    .footer_cont_button_btn {
+      background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    }
+  }
+}
